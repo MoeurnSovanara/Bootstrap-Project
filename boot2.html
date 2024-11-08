@@ -1,0 +1,1239 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstraplink1v5.3.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="boot2.css">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script> -->
+    <title>Header</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="header w-100">
+            <header class="navbar navbar-expand-lg d-flex justify-content-between shadow">
+                <div class="logo w-25 mx-3">
+                    <h2>FRUITABLE</h2>
+                </div>
+                <button class="navbar-toggler" data-bs-toggle="offcanvas" data-bs-target="#canvas" style="background-color: greenyellow;">
+                    <span class="navbar-toggler-icon"></span>
+                </button> 
+                <nav class="collapse navbar-collapse" id="#canvas">
+                    <ul class="d-flex list-unstyled">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Shop</a></li>
+                        <li><a href="#">Shop Detail</a></li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-bs-toggle="dropdown" href="#">
+                                Page
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#" class="dropdown-item">Cart</a></li>
+                                <li><a href="#" class="dropdown-item">CheckOut</a></li>
+                                <li><a href="#" class="dropdown-item">Testimonail</a></li>
+                                <li><a href="#" class="dropdown-item">404 page</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                    <div class="icon d-flex align-items-center mb-3" style=" margin-left: 100px; justify-content: end; width: 35%;">
+                        <nav class="search d-grid mx-2" style="border: 1px solid yellowgreen; border-radius: 50%; width: 40px; height: 40px;">
+                            <i class=" fa-solid fa-magnifying-glass" style="place-self: center; color: yellowgreen; font-size:20px;"></i>
+                        </nav>
+                        <div class="position-relative mx-3">
+                            <i class="fa-solid fa-bag-shopping" style="color: yellowgreen;"></i>
+                            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill" style="background-color: rgb(251, 130, 2);">
+                                3
+                                <span class="visually-hidden">unread message</span>
+                            </span>
+                        </div>
+                        <i class="fa-solid fa-user mx-2" style="color: yellowgreen;"></i>
+                    </div>
+                </nav>
+            </header>
+            <div id="canvas" class=" offcanvas offcanvas-top" data-bs-scroll="true" tabindex="-1" style="width: 95%; height: 430px; margin-left: 19px;">
+                <div class="offcanvas-title d-flex justify-content-between p-3">
+                    <h2 style="color: yellowgreen;">FRUITABLE</h2>
+                </div>
+                <div class="offcanvas-body small">
+                    <ul class="list-unstyled d-grid">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Shop</a></li>
+                        <li><a href="#">Shop Detail</a></li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-bs-toggle="dropdown" href="#">
+                                Page
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#" class="dropdown-item">Cart</a></li>
+                                <li><a href="#" class="dropdown-item">CheckOut</a></li>
+                                <li><a href="#" class="dropdown-item">Testimonail</a></li>
+                                <li><a href="#" class="dropdown-item">404 page</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                    <div class="icon w-25 d-flex align-items-center ">
+                        <nav class="search d-grid mx-2" style="border: 1px solid yellowgreen; border-radius: 50%; width: 40px; height: 40px;">
+                            <i class=" fa-solid fa-magnifying-glass" style="place-self: center; color: yellowgreen; font-size:20px;"></i>
+                        </nav>
+                        <div class="position-relative mx-3">
+                            <i class="fa-solid fa-bag-shopping" style="color: yellowgreen;"></i>
+                            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill" style="background-color: rgb(251, 130, 2);">
+                                3
+                                <span class="visually-hidden">unread message</span>
+                            </span>
+                        </div>
+                        <i class="fa-solid fa-user mx-2" style="color: yellowgreen;"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container test w-100">
+            <div class="row">
+                <div class="col-md-6 p-2">
+                    <h4 class="mt-4">100% Organic Foods</h4>
+                    <h1 class="mt-3"><b>Organic Veggies & Fruits Foods</b></h1>
+                    <div class="input">
+                        <input type="text" placeholder="&emsp; Search">
+                        <span class="btn btn-success align-items-center d-flex justify-content-center top-0 badge mt-5">Submit Now</span>
+                    </div>
+                </div>
+                <!-- slider -->
+                <div class="col-md-6">
+                    <div id="carouselExampleInterval" class="carousel slide mt-5" data-bs-ride="carousel" style="width: 100%; ">
+                        <div class="carousel-inner" style="background-color: orange; border-radius: 20px;">
+                            <div class="carousel-item active" data-bs-interval="3000">
+                                <img src="hero-img-1.png" alt="" class="d-block rounded" style="width: 100%;height:300px">
+                                <div class="carousel-caption">
+                                    <button class="btn" style="color: white;font-size: 25px; background-color:rgba(252, 228, 9, 0.702); margin-bottom: 80px;"> &emsp;Fruits&emsp;</button>
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="3000">
+                                <img src="hero-img-2.jpg" alt="" class="d-block rounded" style="width: 100%; height:300px">
+                                <div class="carousel-caption">
+                                    <button class="btn" style="color: white;font-size: 25px; background-color:rgba(252, 228, 9, 0.702); margin-bottom: 80px;"> Vesitables</button>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#carouselExampleInterval">
+                            <span class="carousel-control-prev-icon"></span>
+                            <button class="btn btn-success" style="width: 40px; height: 40px; border-radius: 50%; position: absolute; top: 130; margin-left: 28px; border: 1px solid greenyellow;"></button>
+                        </button>
+                        <button class="carousel-control-next" data-bs-slide="next" data-bs-target="#carouselExampleInterval">
+                            <span class="carousel-control-next-icon" style="position: relative;"></span>
+                            <button class="btn btn-success" style="width: 40px; height: 40px; border-radius: 50%; position: absolute; top: 130;right: 28px; border: 1px solid greenyellow;"></button>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- card -->
+        <div class="container">
+            <div class="row d-flex mt-5">
+                <div class="col-lg-3 col-md-3 mt-2">
+                    <div class="card p-2">
+                        <div class="card-img-top d-flex justify-content-center">
+                            <div class="box-icon rounded-pill">
+                                <i class="fa-solid fa-car fa-3x text-light" aria-hidden="true"></i>
+                                <div class="area"></div>
+                            </div>
+                        </div>
+                        <div class="card-body mt-2">
+                            <center>
+                                <h3>Free Shipping</h3>
+                                <p>Free on order over $300</p>
+                            </center>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-3 mt-2">
+                    <div class="card p-2">
+                        <div class="card-img-top d-flex justify-content-center">
+                            <div class="box-icon rounded-pill">
+                                <i class="fa-solid fa-user-shield fa-3x text-light" aria-hidden="true"></i>
+                                <div class="area"></div>
+                            </div>
+                        </div>
+                        <div class="card-body mt-2">
+                            <center>
+                                <h3>Security Payment</h3>
+                                <p>100% security payment</p>
+                            </center>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-3 mt-2">
+                    <div class="card p-2">
+                        <div class="card-img-top d-flex justify-content-center">
+                            <div class="box-icon rounded-pill">
+                                <i class="fas fa-exchange-alt fa-3x text-light" aria-hidden="true"></i>
+                                <div class="area"></div>
+                            </div>
+                        </div>
+                        <div class="card-body mt-2">
+                            <center>
+                                <h3>30 Day Return</h3>
+                                <p>30 day money guarantee</p>
+                            </center>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-3 mt-2">
+                    <div class="card p-2">
+                        <div class="card-img-top d-flex justify-content-center">
+                            <div class="box-icon rounded-pill">
+                                <i class="fa-solid fa-phone fa-3x text-light" aria-hidden="true"></i>
+                                <div class="area"></div>
+                            </div>
+                        </div>
+                        <div class="card-body mt-2">
+                            <center>
+                                <h3>24/7 Support</h3>
+                                <p>Support every time fast</p>
+                            </center>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Our Organic Products -->
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-sm-6 w-25">
+                    <h1>Our Organic Products</h1>
+                </div>
+                <div class="col-6 w-75">
+                    <ul class="nav nav-pills mb-3 text-end" id="pills-tab" role="tablist" style="right: 0;">
+                        <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-all" style="border-radius: 20px; width: 140px;">All Product</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-veget" style="border-radius: 20px; width: 140px;">Vegetables</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-fruit" style="border-radius: 20px; width: 140px;">Fruits</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#pills-bread" style="border-radius: 20px; width: 140px;">Bread</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-meat" style="border-radius: 20px; width: 140px;">Meat</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- product-card -->
+        <div class="card-product container mt-5">
+            <div class="tab-content">
+                <div class="tab-pane fade show active" id="pills-all">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-3 mt-5">
+                            <div class="card border-warning">
+                                <img height="310px"class="img-fluid rounded-top" src="fruit1.jpg" alt="" style="position: relative;">
+                                <button class="btn" style="color: white;font-size: 25px; background-color:rgb(237, 191, 5); top: 10; left: 10; position: absolute; font-size: 18px; border-radius: 15px; width: 90px;">Fruits</button>
+                                <div class="card-body">
+                                    <center>
+                                        <h3>Grapes</h3>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                                    </center>
+                                    <div class="footer d-flex justify-content-between">
+                                        <h4 class="mt-1" style="margin-left: 10px;">$4.99/kg</h4>
+                                        <button style="border-radius: 30px; width: 150px; margin-left: 10px;">
+                                            <i class="fa-solid fa-bag-shopping fa-lg mx-1"></i>
+                                            Add to Card
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-3 mt-5">
+                            <div class="card border-warning">
+                                <img height="310px"class="img-fluid rounded-top" src="fruit1.jpg" alt="" style="position: relative;">
+                                <button class="btn" style="color: white;font-size: 25px; background-color:rgb(237, 191, 5); top: 10; left: 10; position: absolute; font-size: 18px; border-radius: 15px; width: 90px;">Fruits</button>
+                                <div class="card-body">
+                                    <center>
+                                        <h3>Grapes</h3>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                                    </center>
+                                    <div class="footer d-flex justify-content-between">
+                                        <h4 class="mt-1" style="margin-left: 10px;">$4.99/kg</h4>
+                                        <button style="border-radius: 30px; width: 150px; margin-left: 10px;">
+                                            <i class="fa-solid fa-bag-shopping fa-lg mx-1"></i>
+                                            Add to Card
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-3 mt-5">
+                            <div class="card border-warning">
+                                <img height="310px"class="img-fluid rounded-top" src="fruit2.jpg" alt="" style="position: relative;">
+                                <button class="btn" style="color: white;font-size: 25px; background-color:rgb(237, 191, 5); top: 10; left: 10; position: absolute; font-size: 18px; border-radius: 15px; width: 90px;">Fruits</button>
+                                <div class="card-body">
+                                    <center>
+                                        <h3>Raspberries</h3>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                                    </center>
+                                    <div class="footer d-flex justify-content-between">
+                                        <h4 class="mt-1" style="margin-left: 10px;">$4.99/kg</h4>
+                                        <button style="border-radius: 30px; width: 150px; margin-left: 10px;">
+                                            <i class="fa-solid fa-bag-shopping fa-lg mx-1"></i>
+                                            Add to Card
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-3 mt-5">
+                            <div class="card border-warning">
+                                <img height="310px"class="img-fluid rounded-top" src="fruit3.jpg" alt="" style="position: relative;">
+                                <button class="btn" style="color: white;font-size: 25px; background-color:rgb(237, 191, 5); top: 10; left: 10; position: absolute; font-size: 18px; border-radius: 15px; width: 90px;">Fruits</button>
+                                <div class="card-body">
+                                    <center>
+                                        <h3>Apricots</h3>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                                    </center>
+                                    <div class="footer d-flex justify-content-between">
+                                        <h4 class="mt-1" style="margin-left: 10px;">$4.99/kg</h4>
+                                        <button style="border-radius: 30px; width: 150px; margin-left: 10px;">
+                                            <i class="fa-solid fa-bag-shopping fa-lg mx-1"></i>
+                                            Add to Card
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-3 mt-5">
+                            <div class="card border-warning">
+                                <img height="310px"class="img-fluid rounded-top" src="fruit4.jpg" alt="" style="position: relative;">
+                                <button class="btn" style="color: white;font-size: 25px; background-color:rgb(237, 191, 5); top: 10; left: 10; position: absolute; font-size: 18px; border-radius: 15px; width: 90px;">Fruits</button>
+                                <div class="card-body">
+                                    <center>
+                                        <h3>Grapes</h3>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                                    </center>
+                                    <div class="footer d-flex justify-content-between">
+                                        <h4 class="mt-1" style="margin-left: 10px;">$4.99/kg</h4>
+                                        <button style="border-radius: 30px; width: 150px; margin-left: 10px;">
+                                            <i class="fa-solid fa-bag-shopping fa-lg mx-1"></i>
+                                            Add to Card
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-3 mt-5">
+                            <div class="card border-warning">
+                                <img height="310px"class="img-fluid rounded-top" src="fruit5.jpg" alt="" style="position: relative;">
+                                <button class="btn" style="color: white;font-size: 25px; background-color:rgb(237, 191, 5); top: 10; left: 10; position: absolute; font-size: 18px; border-radius: 15px; width: 90px;">Fruits</button>
+                                <div class="card-body">
+                                    <center>
+                                        <h3>Grapes</h3>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                                    </center>
+                                    <div class="footer d-flex justify-content-between">
+                                        <h4 class="mt-1" style="margin-left: 10px;">$4.99/kg</h4>
+                                        <button style="border-radius: 30px; width: 150px; margin-left: 10px;">
+                                            <i class="fa-solid fa-bag-shopping fa-lg mx-1"></i>
+                                            Add to Card
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-3 mt-5">
+                            <div class="card border-warning">
+                                <img height="310px"class="img-fluid rounded-top" src="fruit2.jpg" alt="" style="position: relative;">
+                                <button class="btn" style="color: white;font-size: 25px; background-color:rgb(237, 191, 5); top: 10; left: 10; position: absolute; font-size: 18px; border-radius: 15px; width: 90px;">Fruits</button>
+                                <div class="card-body">
+                                    <center>
+                                        <h3>Raspberries</h3>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                                    </center>
+                                    <div class="footer d-flex justify-content-between">
+                                        <h4 class="mt-1" style="margin-left: 10px;">$4.99/kg</h4>
+                                        <button style="border-radius: 30px; width: 150px; margin-left: 10px;">
+                                            <i class="fa-solid fa-bag-shopping fa-lg mx-1"></i>
+                                            Add to Card
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-3 mt-5">
+                            <div class="card border-warning">
+                                <img height="310px"class="img-fluid rounded-top" src="fruit1.jpg" alt="" style="position: relative;">
+                                <button class="btn" style="color: white;font-size: 25px; background-color:rgb(237, 191, 5); top: 10; left: 10; position: absolute; font-size: 18px; border-radius: 15px; width: 90px;">Fruits</button>
+                                <div class="card-body">
+                                    <center>
+                                        <h3>Apricots</h3>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                                    </center>
+                                    <div class="footer d-flex justify-content-between">
+                                        <h4 class="mt-1" style="margin-left: 10px;">$4.99/kg</h4>
+                                        <button style="border-radius: 30px; width: 150px; margin-left: 10px;">
+                                            <i class="fa-solid fa-bag-shopping fa-lg mx-1"></i>
+                                            Add to Card
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+            <div class="tab-content">
+                <div class="tab-pane fade" id="pills-veget">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-3 mt-5">
+                            <div class="card border-warning">
+                                <img height="310px"class="img-fluid rounded-top" src="fruit1.jpg" alt="" style="position: relative;">
+                                <button class="btn" style="color: white;font-size: 25px; background-color:rgb(237, 191, 5); top: 10; left: 10; position: absolute; font-size: 18px; border-radius: 15px; width: 90px;">Fruits</button>
+                                <div class="card-body">
+                                    <center>
+                                        <h3>Grapes</h3>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                                    </center>
+                                    <div class="footer d-flex justify-content-between">
+                                        <h4 class="mt-1" style="margin-left: 10px;">$4.99/kg</h4>
+                                        <button style="border-radius: 30px; width: 150px; margin-left: 10px;">
+                                            <i class="fa-solid fa-bag-shopping fa-lg mx-1"></i>
+                                            Add to Card
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 mt-5">
+                            <div class="card border-warning">
+                                <img height="310px"class="img-fluid rounded-top" src="fruit2.jpg" alt="" style="position: relative;">
+                                <button class="btn" style="color: white;font-size: 25px; background-color:rgb(237, 191, 5); top: 10; left: 10; position: absolute; font-size: 18px; border-radius: 15px; width: 90px;">Fruits</button>
+                                <div class="card-body">
+                                    <center>
+                                        <h3>Raspberries</h3>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                                    </center>
+                                    <div class="footer d-flex justify-content-between">
+                                        <h4 class="mt-1" style="margin-left: 10px;">$4.99/kg</h4>
+                                        <button style="border-radius: 30px; width: 150px; margin-left: 10px;">
+                                            <i class="fa-solid fa-bag-shopping fa-lg mx-1"></i>
+                                            Add to Card
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-content">
+                <div class="tab-pane fade" id="pills-fruit">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-3 mt-5">
+                            <div class="card border-warning">
+                                <img height="310px"class="img-fluid rounded-top" src="fruit5.jpg" alt="" style="position: relative;">
+                                <button class="btn" style="color: white;font-size: 25px; background-color:rgb(237, 191, 5); top: 10; left: 10; position: absolute; font-size: 18px; border-radius: 15px; width: 90px;">Fruits</button>
+                                <div class="card-body">
+                                    <center>
+                                        <h3>Orange</h3>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                                    </center>
+                                    <div class="footer d-flex justify-content-between">
+                                        <h4 class="mt-1" style="margin-left: 10px;">$4.99/kg</h4>
+                                        <button style="border-radius: 30px; width: 150px; margin-left: 10px;">
+                                            <i class="fa-solid fa-bag-shopping fa-lg mx-1"></i>
+                                            Add to Card
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-3 mt-5">
+                            <div class="card border-warning">
+                                <img height="310px"class="img-fluid rounded-top" src="fruit6.jpg" alt="" style="position: relative;">
+                                <button class="btn" style="color: white;font-size: 25px; background-color:rgb(237, 191, 5);top: 10; left: 10; position: absolute; font-size: 18px; border-radius: 15px; width: 90px;">Fruits</button>
+                                <div class="card-body">
+                                    <center>
+                                        <h3>Raspberries</h3>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                                    </center>
+                                    <div class="footer d-flex justify-content-between">
+                                        <h4 class="mt-1" style="margin-left: 10px;">$4.99/kg</h4>
+                                        <button style="border-radius: 30px; width: 150px; margin-left: 10px;">
+                                            <i class="fa-solid fa-bag-shopping fa-lg mx-1"></i>
+                                            Add to Card
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-content">
+                <div class="tab-pane fade" id="pills-bread">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-3 mt-5">
+                            <div class="card border-warning">
+                                <img height="310px"class="img-fluid rounded-top" src="fruit1.jpg" alt="" style="position: relative;">
+                                <button class="btn" style="color: white;font-size: 25px; background-color:rgb(237, 191, 5);top: 10; left: 10; position: absolute; font-size: 18px; border-radius: 15px; width: 90px;">Fruits</button>
+                                <div class="card-body">
+                                    <center>
+                                        <h3>Orange</h3>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                                    </center>
+                                    <div class="footer d-flex justify-content-between">
+                                        <h4 class="mt-1" style="margin-left: 10px;">$4.99/kg</h4>
+                                        <button style="border-radius: 30px; width: 150px; margin-left: 10px;">
+                                            <i class="fa-solid fa-bag-shopping fa-lg mx-1"></i>
+                                            Add to Card
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-3 mt-5">
+                            <div class="card border-warning">
+                                <img height="310px"class="img-fluid rounded-top" src="fruit3.jpg" alt="" style="position: relative;">
+                                <button class="btn" style="color: white;font-size: 25px; background-color:rgb(237, 191, 5); top: 10; left: 10; position: absolute; font-size: 18px; border-radius: 15px; width: 90px;">Fruits</button>
+                                <div class="card-body">
+                                    <center>
+                                        <h3>Raspberries</h3>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                                    </center>
+                                    <div class="footer d-flex justify-content-between">
+                                        <h4 class="mt-1" style="margin-left: 10px;">$4.99/kg</h4>
+                                        <button style="border-radius: 30px; width: 150px; margin-left: 10px;">
+                                            <i class="fa-solid fa-bag-shopping fa-lg mx-1"></i>
+                                            Add to Card
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-content">
+                <div class="tab-pane fade" id="pills-meat">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-3 mt-5">
+                            <div class="card border-warning">
+                                <img height="310px"class="img-fluid rounded-top" src="fruit4.jpg" alt="" style="position: relative;">
+                                <button class="btn" style="color: white;font-size: 25px; background-color:rgb(237, 191, 5); top: 10; left: 10; position: absolute; font-size: 18px; border-radius: 15px; width: 90px;">Fruits</button>
+                                <div class="card-body">
+                                    <center>
+                                        <h3>Orange</h3>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                                    </center>
+                                    <div class="footer d-flex justify-content-between">
+                                        <h4 class="mt-1" style="margin-left: 10px;">$4.99/kg</h4>
+                                        <button style="border-radius: 30px; width: 150px; margin-left: 10px;">
+                                            <i class="fa-solid fa-bag-shopping fa-lg mx-1"></i>
+                                            Add to Card
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-3 mt-5">
+                            <div class="card border-warning">
+                                <img height="310px"class="img-fluid rounded-top" src="fruit2.jpg" alt="" style="position: relative;">
+                                <button class="btn" style="color: white;font-size: 25px; background-color:rgb(237, 191, 5); top: 10; left: 10; position: absolute; font-size: 18px; border-radius: 15px; width: 90px;">Fruits</button>
+                                <div class="card-body">
+                                    <center>
+                                        <h3>Raspberries</h3>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                                    </center>
+                                    <div class="footer d-flex justify-content-between">
+                                        <h4 class="mt-1" style="margin-left: 10px;">$4.99/kg</h4>
+                                        <button style="border-radius: 30px; width: 150px; margin-left: 10px;">
+                                            <i class="fa-solid fa-bag-shopping fa-lg mx-1"></i>
+                                            Add to Card
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-3 mt-5">
+                            <div class="card border-warning">
+                                <img height="310px"class="img-fluid rounded-top" src="fruit5.jpg" alt="" style="position: relative;">
+                                <button class="btn" style="color: white;font-size: 25px; background-color:rgb(237, 191, 5);top: 10; left: 10; position: absolute; font-size: 18px; border-radius: 15px; width: 90px;">Fruits</button>
+                                <div class="card-body">
+                                    <center>
+                                        <h3>Orange</h3>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                                    </center>
+                                    <div class="footer d-flex justify-content-between">
+                                        <h4 class="mt-1" style="margin-left: 10px;">$4.99/kg</h4>
+                                        <button style="border-radius: 30px; width: 150px; margin-left: 10px;">
+                                            <i class="fa-solid fa-bag-shopping fa-lg mx-1"></i>
+                                            Add to Card
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card-under container mt-5">
+            <div class="row">
+                <div class="col-lg-4 col-md-3 mt-5">
+                    <div class="card1 border-warning rounded" style="border: 1px solid yellow; position: relative;">
+                        <img height="310px" width="100%" class="img-fluid rounded-top" src="card1.jpg" alt="">
+                        <div class="card-body" style="height: 140px;"></div>
+                        <div class="box d-flex justify-content-center align-items-center" style="width: 270px; height: 150px; background-color: yellowgreen; margin-left: 80px; position: absolute; bottom: 70; border-radius: 20px;">
+                            <center>
+                                <h3 style="color: aliceblue;">Fresh Apples</h3>
+                                <h1 style="color: rgb(67, 65, 65);">20% OFF</h1>
+                            </center>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-3 mt-5">
+                    <div class="card2 border-warning rounded" style="border: 1px solid yellow; position: relative;">
+                        <img height="310px" width="100%" class="img-fluid rounded-top" src="card2.jpg" alt="">
+                        <div class="card-body" style="height: 140px;">
+                        </div>
+                        <div class="box d-flex justify-content-center align-items-center" style="width: 270px; height: 150px; background-color: white; margin-left: 80px; position: absolute; bottom: 70; border-radius: 20px;">
+                            <center>
+                                <h3 style="color: yellowgreen">Tasty Fruit</h3>
+                                <h1 style="color: rgb(67, 65, 65);">Free DElivery</h1>
+                            </center>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-3 mt-5">
+                    <div class="card3 border-warning rounded" style="border: 1px solid yellow; position: relative;">
+                        <img height="310px" width="100%" class="img-fluid rounded-top" src="card3.jpg" alt="">
+                        <div class="card-body" style="height: 140px;"></div>
+                        <div class="box d-flex justify-content-center align-items-center" style="width: 270px; height: 150px; background-color: orange; margin-left: 80px; position: absolute; bottom: 70; border-radius: 20px;">
+                            <center>
+                                <h3 style="color: aliceblue;">Exotic Vegetable</h3>
+                                <h1 style="color: rgb(67, 65, 65);">Discount 30$</h1>
+                            </center>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Carousal -->
+        <div class="container">
+            <div class="carousel slide mt-5" id="myCarousel" data-bs-ride="carousel">
+                <div class="flex-slide">
+                    <h1>Fresh Oganic Vegetable</h1>
+                    <div class="group-btn d-flex justify-content-end">
+                        <button><i class="fa fa-arrow-right" aria-hidden="true" data-bs-slide="prev" data-bs-target="#myCarousel"></i></button>
+                        <button><i class="fa fa-arrow-left" aria-hidden="true" data-bs-slide="next" data-bs-target="#myCarousel" ></i></button>
+                    </div>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-3 d-flex justify-content-center  mt-5">
+                                <div class="card border-warning">
+                                    <img height="310px"class="img-fluid rounded-top" src="tomato.jpg" alt="" style="position: relative;">
+                                    <button class="btn" style="color: white;font-size: 25px; background-color:rgb(237, 191, 5);top: 10; left: 10; position: absolute; font-size: 18px; border-radius: 15px; width: 90px;">Fruits</button>
+                                    <div class="card-body">
+                                        <center>
+                                            <h3>Orange</h3>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                                        </center>
+                                        <div class="footer d-flex justify-content-between">
+                                            <h4 class="mt-1" style="margin-left: 10px;">$4.99/kg</h4>
+                                            <button style="border-radius: 30px; width: 150px; margin-left: 10px;">
+                                                <i class="fa-solid fa-bag-shopping fa-lg mx-1"></i>
+                                                Add to Card
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-3 d-flex justify-content-center  mt-5">
+                                <div class="card border-warning">
+                                    <img height="310px"class="img-fluid rounded-top" src="green.jpg" alt="" style="position: relative;">
+                                    <button class="btn" style="color: white;font-size: 25px; background-color:rgb(237, 191, 5);top: 10; left: 10; position: absolute; font-size: 18px; border-radius: 15px; width: 90px;">Fruits</button>
+                                    <div class="card-body">
+                                        <center>
+                                            <h3>Orange</h3>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                                        </center>
+                                        <div class="footer d-flex justify-content-between">
+                                            <h4 class="mt-1" style="margin-left: 10px;">$4.99/kg</h4>
+                                            <button style="border-radius: 30px; width: 150px; margin-left: 10px;">
+                                                <i class="fa-solid fa-bag-shopping fa-lg mx-1"></i>
+                                                Add to Card
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-3 d-flex justify-content-center  mt-5">
+                                <div class="card border-warning">
+                                    <img height="310px"class="img-fluid rounded-top" src="tomato1.jpg" alt="" style="position: relative;">
+                                    <button class="btn" style="color: white;font-size: 25px; background-color:rgb(237, 191, 5);top: 10; left: 10; position: absolute; font-size: 18px; border-radius: 15px; width: 90px;">Fruits</button>
+                                    <div class="card-body">
+                                        <center>
+                                            <h3>Orange</h3>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                                        </center>
+                                        <div class="footer d-flex justify-content-between">
+                                            <h4 class="mt-1" style="margin-left: 10px;">$4.99/kg</h4>
+                                            <button style="border-radius: 30px; width: 150px; margin-left: 10px;">
+                                                <i class="fa-solid fa-bag-shopping fa-lg mx-1"></i>
+                                                Add to Card
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-3 d-flex justify-content-center  mt-5">
+                                <div class="card border-warning">
+                                    <img height="310px"class="img-fluid rounded-top" src="chilly.jpg" alt="" style="position: relative;">
+                                    <button class="btn" style="color: white;font-size: 25px; background-color:rgb(237, 191, 5);top: 10; left: 10; position: absolute; font-size: 18px; border-radius: 15px; width: 90px;">Fruits</button>
+                                    <div class="card-body">
+                                        <center>
+                                            <h3>Orange</h3>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                                        </center>
+                                        <div class="footer d-flex justify-content-between">
+                                            <h4 class="mt-1" style="margin-left: 10px;">$4.99/kg</h4>
+                                            <button style="border-radius: 30px; width: 150px; margin-left: 10px;">
+                                                <i class="fa-solid fa-bag-shopping fa-lg mx-1"></i>
+                                                Add to Card
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-3 justify-content-center  mt-5">
+                                <div class="card border-warning">
+                                    <img height="310px"class="img-fluid rounded-top" src="banana.png" alt="" style="position: relative;">
+                                    <button class="btn" style="color: white;font-size: 25px; background-color:rgb(237, 191, 5);top: 10; left: 10; position: absolute; font-size: 18px; border-radius: 15px; width: 90px;">Fruits</button>
+                                    <div class="card-body">
+                                        <center>
+                                            <h3>Orange</h3>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                                        </center>
+                                        <div class="footer d-flex justify-content-between">
+                                            <h4 class="mt-1" style="margin-left: 10px;">$4.99/kg</h4>
+                                            <button style="border-radius: 30px; width: 150px; margin-left: 10px;">
+                                                <i class="fa-solid fa-bag-shopping fa-lg mx-1"></i>
+                                                Add to Card
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-3 justify-content-center  mt-5">
+                                <div class="card border-warning">
+                                    <img height="310px"class="img-fluid rounded-top" src="tomato1.jpg" alt="" style="position: relative;">
+                                    <button class="btn" style="color: white;font-size: 25px; background-color:rgb(237, 191, 5);top: 10; left: 10; position: absolute; font-size: 18px; border-radius: 15px; width: 90px;">Fruits</button>
+                                    <div class="card-body">
+                                        <center>
+                                            <h3>Orange</h3>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                                        </center>
+                                        <div class="footer d-flex justify-content-between">
+                                            <h4 class="mt-1" style="margin-left: 10px;">$4.99/kg</h4>
+                                            <button style="border-radius: 30px; width: 150px; margin-left: 10px;">
+                                                <i class="fa-solid fa-bag-shopping fa-lg mx-1"></i>
+                                                Add to Card
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-3 justify-content-center  mt-5">
+                                <div class="card border-warning">
+                                    <img height="310px"class="img-fluid rounded-top" src="tomato.jpg" alt="" style="position: relative;">
+                                    <button class="btn" style="color: white;font-size: 25px; background-color:rgb(237, 191, 5);top: 10; left: 10; position: absolute; font-size: 18px; border-radius: 15px; width: 90px;">Fruits</button>
+                                    <div class="card-body">
+                                        <center>
+                                            <h3>Orange</h3>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                                        </center>
+                                        <div class="footer d-flex justify-content-between">
+                                            <h4 class="mt-1" style="margin-left: 10px;">$4.99/kg</h4>
+                                            <button style="border-radius: 30px; width: 150px; margin-left: 10px;">
+                                                <i class="fa-solid fa-bag-shopping fa-lg mx-1"></i>
+                                                Add to Card
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-3 justify-content-center  mt-5">
+                                <div class="card border-warning">
+                                    <img height="310px"class="img-fluid rounded-top" src="chilly.jpg" alt="" style="position: relative;">
+                                    <button class="btn" style="color: white;font-size: 25px; background-color:rgb(237, 191, 5);top: 10; left: 10; position: absolute; font-size: 18px; border-radius: 15px; width: 90px;">Fruits</button>
+                                    <div class="card-body">
+                                        <center>
+                                            <h3>Orange</h3>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                                        </center>
+                                        <div class="footer d-flex justify-content-between">
+                                            <h4 class="mt-1" style="margin-left: 10px;">$4.99/kg</h4>
+                                            <button style="border-radius: 30px; width: 150px; margin-left: 10px;">
+                                                <i class="fa-solid fa-bag-shopping fa-lg mx-1"></i>
+                                                Add to Card
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Exotic -->
+
+        <div class="exotic  mt-5 bg-warning">
+            <div class="row">
+                <div class="col-sm-6 d-flex w-100">
+                    <div class="text" style="padding: 100px 1px">
+                        <h1>Fresh Exotic Fruits</h1>
+                        <h2>in Our Store</h2> <br>
+                        <p>The generated Lorem Ipsum is therefore always free from repetition injected humour, or non-characteristic words etc.</p>
+                        <button class="btn btn-warning">BUY</button>
+                    </div>
+                    <div class="pic mt-4">
+                        <img style="position: relative;" class="img" src="baner-1.png" alt="">
+                        <div class="circle bg-light d-flex justify-content-center align-items-center" style="width: 130px; height: 130px; border-radius: 50%; bottom: -2750 ; right: 490; position: absolute;">
+                            <h3 style="font-size: 95px; font-weight: 700; margin-right: 50px; position: relative;">1</h3><sub style="font-size: 26px; font-weight: 500; top: 85; left: 60;" class="sub position-absolute">Kg</sub><sup class="sup position-absolute" style="font-size: 30px; font-weight: 900; top: 45; right: 15;">50$</sup>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Bestseller -->
+        <div class="Bestseller mt-5">
+            <div class="row justify-content-center">
+                <div class="col-12 w-50 mt-5">
+                    <center>
+                        <h1 class=>Bestseller Products</h1>
+                        <p>Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.</p>
+                    </center>
+                </div>
+            </div>
+            <div class="col-4 d-flex  w-100 justify-content-around">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="fruit5.jpg" alt="">
+                        <div class="text">
+                            <h4>Organic Orange</h4>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <h3>3.12$</h3>
+                            <button class="btn"><i class="fa-solid fa-bag-shopping" style="color: ;"></i>Add to Card</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <img src="fruit2.jpg" alt="">
+                        <div class="text">
+                            <h4>Organic Strabery</h4>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <h3>3.12$</h3>
+                            <button class="btn"><i class="fa-solid fa-bag-shopping" style="color: ;"></i>Add to Card</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <img src="fruit4.jpg" alt="">
+                        <div class="text">
+                            <h4>Organic Banana</h4>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <h3>3.12$</h3>
+                            <button class="btn"><i class="fa-solid fa-bag-shopping" style="color: ;"></i>Add to Card</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4 d-flex mt-3 w-100 justify-content-around">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="fruit3.jpg" alt="">
+                        <div class="text">
+                            <h4>Organic Orange</h4>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <h3>3.12$</h3>
+                            <button class="btn"><i class="fa-solid fa-bag-shopping" style="color: ;"></i>Add to Card</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <img src="fruit1.jpg" alt="">
+                        <div class="text">
+                            <h4>Organic Strabery</h4>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <h3>3.12$</h3>
+                            <button class="btn"><i class="fa-solid fa-bag-shopping" style="color: ;"></i>Add to Card</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <img src="fruit6.jpg" alt="">
+                        <div class="text">
+                            <h4>Organic Banana</h4>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <h3>3.12$</h3>
+                            <button class="btn"><i class="fa-solid fa-bag-shopping" style="color: ;"></i>Add to Card</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 4card -->
+         <div class="under4card h-50 bg-white" style="margin-top: 100px;">
+            <div class="row">
+                <div class="col-3">
+                    <div class="img">
+                        <img src="fruit5.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <center>
+                            <h4>Organic Banana</h4>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <h3>3.12$</h3>
+                            <button class="btn"><i class="fa-solid fa-bag-shopping" style="color: ;"></i>Add to Card</button>
+                        </center>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="img">
+                        <img src="fruit2.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <center>
+                            <h4>Organic Banana</h4>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <h3>3.12$</h3>
+                            <button class="btn"><i class="fa-solid fa-bag-shopping" style="color: ;"></i>Add to Card</button>
+                        </center>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="img">
+                        <img src="fruit4.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <center>
+                            <h4>Organic Banana</h4>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <h3>3.12$</h3>
+                            <button class="btn"><i class="fa-solid fa-bag-shopping" style="color: ;"></i>Add to Card</button>
+                        </center>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="img">
+                        <img src="fruit3.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <center>
+                            <h4>Organic Banana</h4>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <h3>3.12$</h3>
+                            <button class="btn"><i class="fa-solid fa-bag-shopping" style="color: ;"></i>Add to Card</button>
+                        </center>
+                    </div>
+                </div>
+            </div>
+         </div>
+
+        <div class="baner container">
+            <div class="row p-4">
+                <div class="col-lg-3" style="background-color: white; border-radius: 15px;">
+
+                    <div class="icon">
+                        <i class="fa-solid fa-users"></i>
+                    </div>
+                    <div class="text">
+                        <center>
+                            <h3>SATISFIED CUSTOMERS</h3>
+                            <h1>1963</h1>
+                        </center>
+                    </div>
+                </div>
+
+                <div class="col-lg-3"style="background-color:white; border-radius: 15px;">
+                    <div class="icon">
+                        <i class="fa-solid fa-users"></i>
+                    </div>
+                    <div class="text">
+                        <center>
+                            <h3>QUALITY OF SERVICE</h3>
+                            <h1>99%</h1>
+                        </center>
+                    </div>
+                </div>
+
+                <div class="col-lg-3" style="background-color:white; border-radius: 15px;">
+                    <div class="icon">
+                        <i class="fa-solid fa-users"></i>
+                    </div>
+                    <div class="text">
+                        <center>
+                            <h3>QUALITY CERTIFICATES</h3>
+                            <h1>33</h1>
+                        </center>
+                    </div>
+                </div>
+
+                <div class="col-lg-3" style="background-color:white; border-radius: 15px;">
+                    <div class="icon">
+                        <i class="fa-solid fa-users"></i>
+                    </div>
+                    <div class="text">
+                        <center>
+                            <h3>AVAILABLE PRODUCTS</h3>
+                            <h1>789</h1>
+                        </center>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <!-- Testimonial -->
+        <div class="testimonial container mt-2">
+            <div class="carousel slide" id="Carousel" data-bs-ride="carousel">
+                <div class="flex-slide">
+                    <h5><center>Our Testimonial</center></h5>
+                    <h1><center>Our Client Saying!</center></h1>
+                    <div class="group-btn d-flex justify-content-end">
+                        <button data-bs-target="#Carousel" data-bs-slide="prev">
+                            <i class="fa fa-arrow-left" aria-hidden="true"></i>
+                        </button>
+                        <button data-bs-target="#Carousel" data-bs-slide="next">
+                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-lg-6 col-6 d-flex justify-content-center mt-5">
+                                <div class="card">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In dicta ab sint provident? Officiis omnis aperiam illo amet laborum, asperiores modi?</p>
+                                    <hr>
+                                    <div class="coverAll">
+                                        <div class="cover">
+                                            <div class="profile mt-2">
+                                                <img src="p1.webp" alt="">
+                                            </div>
+                                            <div class="name">
+                                                <h3>Ada Loveless</h3>
+                                                <p>Profession</p>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="right-icon">
+                                            <h1>;;</h1>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <div class="col-lg-6 col-6 d-flex justify-content-center mt-5">
+                                <div class="card">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In dicta ab sint provident? Officiis omnis aperiam illo amet laborum, asperiores modi?</p>
+                                    <hr>
+                                    <div class="coverAll">
+                                        <div class="cover">
+                                            <div class="profile mt-2">
+                                                <img src="p1.webp" alt="">
+                                            </div>
+                                            <div class="name">
+                                                <h3>Ada Loveless</h3>
+                                                <p>Profession</p>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="right-icon">
+                                            <h1>;;</h1>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="end-div mt-5">
+            <div class="row">
+                <div class="col-4  justify-content-start align-items-center border-1">
+                    <h1 style="color: yellowgreen; font-size: 40px; font-weight: 1000;">Fruitable</h1>
+                    <h6 style="color: gold; font-size: 20px;">Fresh Product</h6>
+                </div>
+                <div class="col-4 d-flex justify-content-center align-items-center border-1">
+                    <input type="text" name="" id="" placeholder="&emsp; Enter Email">
+                    <button>Subcribe Now</button>
+                </div>
+                <div class="col-4 d-flex justify-content-end align-items-center border-1">
+                    <div class="div me-3">
+                        <i class="fa-brands fa-twitter"></i>
+                    </div>
+                    <div class="div me-3">
+                        <i class="fa-brands fa-facebook"></i>
+                    </div>
+                    <div class="div me-3">
+                        <i class="fa-brands fa-youtube"></i>
+                    </div>
+                    <div class="div">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-3">
+                    <h3 style="color: rgb(239, 232, 232);">Why People Like us!</h3>
+                    <p>typesetting, remaining essentially unchanged. It was popularised in the 1960s with the like Aldus PageMaker including of Lorem Ipsum.</p>
+                    <button class="btn btn-success">Read More</button>
+                </div>
+                <div class="col-3">
+                    <h3 style="color: rgb(239, 232, 232);">Shop Info</h3>
+                    <a href="">About Us</a><br>
+                    <a href="">Contact Us</a><br>
+                    <a href="">Privacy Policy</a><br>
+                    <a href="">Terms and condition</a><br>
+                    <a href="">Return Policy</a><br>
+                    <a href="">FAQs & Help</a>
+                </div>
+                <div class="col-3">
+                    <h3 style="color: rgb(239, 232, 232);">Account</h3>
+                    <a href="">My Account</a><br>
+                    <a href="">Shop Details</a><br>
+                    <a href="">Shopping Cart</a><br>
+                    <a href="">WishList</a><br>
+                    <a href="">Order History</a><br>
+                    <a href="">International Orders</a>
+                </div>
+                <div class="col-3">
+                    <h3 style="color: rgb(239, 232, 232);">Contact</h3>
+                    <a href="">Address: 1429 Netus Rd, NY 48247</a><br>
+                    <a href="">Email: pozzlik1280@gmail.com</a><br>
+                    <a href="">Phone: +855 976 976 912</a><br>
+                    <a href="">Payment Accepted</a><br>
+                    <img src="Credit_card.png" alt="" style="width: 100%; height: 20%; margin-top: 15px;">
+                </div>
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-6">
+                    <div class="C mx-2">
+                        <span>C</span>
+                    </div>
+                    <a href="" style="color: yellowgreen;" >Your Site Name</a>
+                    <p style="color: white;">, All right reserved.</p>
+                </div>
+                <div class="col-6 justify-content-end">
+                    <p style="color: white;">Designed By</p>
+                    <a href="https://github.com/MoeurnSovanara" style="color: yellowgreen;">HTML Codex</a>
+                    <p style="color: white;">Distributed By</p>
+                    <a href="https://www.facebook.com/AhLiiLob9?mibextid=ZbWKwL" style="color: yellowgreen;">Sovanara</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="bootstrap1v5.3.bundle.min.js"></script>
+</html>
